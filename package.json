@@ -1,0 +1,26 @@
+{
+  "name": "resizable",
+  "version": "0.0.1",
+  "description": "Resizable react wrapper component",
+  "main": "index.js",
+  "author": "Jan Neuman",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext .js,.jsx lib/ example/",
+    "dev": "webpack-dev-server --open --open-page=example/index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {}
+}
