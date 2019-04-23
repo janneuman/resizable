@@ -1,0 +1,92 @@
+<html>
+<head>
+    <style>
+        body {
+            background: white;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        h1 {
+            text-align: center;
+        }
+        #root {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <style>
+        .handle-x {
+            position: absolute;
+            background: lightBlue;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            width: 10px;
+            cursor: col-resize;
+        }
+
+        .handle-x span {
+            position: absolute;
+            width: 8px;
+            height: 16px;
+            top: 50%;
+            left: 50%;
+            margin-left: -4px;
+            margin-top: -8px;
+        }
+
+        .handle-y {
+            position: absolute;
+            background: lightBlue;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            height: 10px;
+            width: 100%;
+            cursor: row-resize;
+        }
+
+        .handle-y span {
+            position: absolute;
+            width: 8px;
+            height: 16px;
+            top: 50%;
+            left: 50%;
+            margin-top: -8px;
+            margin-left: -4px;
+            transform: rotate(90deg);
+        }
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 18px 0 10px;
+        }
+
+        .menu li {
+            border: 1px solid rosybrown;
+            padding: 10px;
+            margin-bottom: 3px;
+            max-width: 450px;
+        }
+
+        .resizableWrapper,
+        .resizableWrapper-2,
+        .resizableWrapper-3 {
+            background: aliceblue;
+            overflow: hidden;
+            border: 3px solid blanchedalmond;
+        }
+    </style>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="/bundle.js"></script>
+    <title>Resizable demo</title>
+</head>
+<body>
+    <h1>Resizable Component</h1>
+    <div id="root"></div>
+</body>
+</html>
