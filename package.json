@@ -1,6 +1,6 @@
 {
   "name": "resizable",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Resizable react wrapper component",
   "main": "index.js",
   "author": "Jan Neuman",
